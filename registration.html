@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/design3.css">
+</head>
+
+<body>
+    <div class="nav">
+        <a href="index.html">
+            <div class="generalNav navItem actual">Home</div>
+        </a>
+        <a href="about.html">
+            <div class="generalNav navItemA">About NYSL</div>
+        </a>
+        <a href="contact.html">
+            <div class="generalNav navItemB">Contact</div>
+        </a>
+        <a href="rules.html">
+            <div class="generalNav navItemC">Rules</div>
+        </a>
+        <a href="#">
+            <div class="generalNav navItemD">Registration</div>
+        </a>
+    </div>
+    <header>
+        <h1 class="blink">Northside Youth Soccer League</h1>
+    </header>
+    <form class="regist" action="show_data.html" method="GET">
+        <div class="center">
+            <h2 class="up">Registration Form</h2>
+        </div>
+        <fieldset>
+            <img class="logo" src='images/nysl_logo.png' alt="logo">
+            <div class="ordering">
+                <div>
+                    <label for="first name">Player's First name:</label>
+                    <input type="text" name="first_name" placeholder="First name" required>
+                </div>
+                <div>
+                    <label for="Last name">Last name:</label>
+                    Last name:
+                    <input type="text" name="last name" placeholder="Last name" required>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="field">
+                <label for="Street Address">Street Address:</label>
+                Street Address:
+                <input type="text" name="Street Address" placeholder="Street Address" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="field">
+                <label for="City">City:</label>
+                City:
+                <input type="text" name="city" placeholder="City" required>
+                <label for="Zipe code">Zipe code:</label>
+                Zipe code:
+                <input type="text" name="Zipe code" placeholder="Zipe code" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="birth">
+                <div>
+                    Birth Date (mm/dd/yyyy):
+                    <input type="date" name="Birth Date" placeholder="(mm/dd/yyyy):" required>
+                    Gender:
+                    <input type="radio" name="Gender" value="Female"> Female
+                    <input type="radio" name="Gender" value="Male"> Male
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="grade">
+                Grade:
+                <div>
+                    <input type="radio" name="Grade" value="Pre-School"> Pre-School
+                </div>
+                <div>
+                    <input type="radio" name="Grade" value="1st"> 1st
+                </div>
+                <div>
+                    <input type="radio" name="Grade" value="2nd"> 2nd
+                </div>
+                <div>
+                    <input type="radio" name="Grade" value="3rd"> 3rd
+                </div>
+                <div>
+                    <input type="radio" name="Grade" value="4th"> 4th
+                </div>
+                <div>
+                    <input type="radio" name="Grade" value="5th"> 5th
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="ordering">
+                <div>
+                    <label for="Parent/Guardian">Parent/Guardian:</label>
+                    <input type="text" name="Parent" placeholder="Parent/Guardian" required>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="ordering">
+                <div class="phone">
+                    <label for=" Contact Phone"> Contact Phone::</label>
+                    <input type="text" name="Phone" placeholder="Tel" required>
+                </div>
+                <div class="email">
+                    Contact Email:
+                    <input type="email" name="Contact Email" placeholder="Email" required>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Which elementary schools do you live near?
+            </legend>
+            <div class="mainclosets">
+                <div class="column2">
+                    First Closest School:
+                    <select name="First Closest School:">
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+                </div>
+                <div class="column2">
+                    Second Closest School:
+                    <select name="Second Closest School:">
+                        <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>What position(s) do you normally play?</legend>
+            <div class="mainboxes">
+                <div class="column1">
+                    <div class="field2">
+                        <input type="checkbox" name="position play" value="Forward"> Forward
+                    </div>
+                    <div class="field2">
+                        <input type="checkbox" name="position play" value="Midfield"> Midfield
+                    </div>
+                </div>
+                <div class="column1">
+                    <div class="field2">
+                        <input type="checkbox" name="position play" value="Defense"> Defense
+                    </div>
+                    <div class="field2">
+                        <input type="checkbox" name="position play" value="Goalkeeper"> Goalkeeper
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>What position(s) do you want to play? </legend>
+            <div class="mainboxes">
+                <div class="column1">
+                    <div class="field2">
+                        <input type="checkbox" name="position want play" value="Forward"> Forward
+                    </div>
+                    <div class="field2">
+                        <input type="checkbox" name="position want play" value="Midfield"> Midfield
+                    </div>
+                </div>
+                <div class="column1">
+                    <div class="field2">
+                        <input type="checkbox" name="position want play" value="Defense"> Defense </div>
+                    <div class="field2">
+                        <input type="checkbox" name="position want play" value="Goalkeeper"> Goalkeeper
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="field3">
+                <input type="radio" name="Uniform" value="<legend>Already Have a Uniform</legend>">
+                <legend>Already Have a Uniform</legend>
+            </div>
+            <div class="mainbox">
+                <div class="column">
+                    <legend>Jersey Size:</legend>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Small"> Youth Small
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Medium"> Youth Medium
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Large"> Youth Large
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Small"> Small
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Medium"> Medium
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Large"> Large
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Extra-Large"> Extra-Large
+                    </div>
+                </div>
+                <div class="column">
+                    <legend> Shorts Size:</legend>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Small"> Youth Small
+                    </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Medium"> Youth Medium </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Youth Large"> Youth Large</div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Small"> Small</div>
+                </div>
+                <div class="column">
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Medium" required> Medium </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Large"> Large </div>
+                    <div class="field4">
+                        <input type="radio" name="Uniform" value="Extra-Large"> Extra-Large </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="large">
+                <p class="textdecoration">Permission to Play</p>
+                <div class="large">
+                    <p class="colorf">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation. By entering your name below, I hereby agree and authorize the above. In addition, By entering your name below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="ordering">
+                <div>
+                    <label for="Parent/Guardian Name"> Parent/Guardian Name:</label>
+                    <input type="text" name="Parent name" placeholder="Parent/Guardian" required>
+                </div>
+                <div>
+                    <label for="Date"> date: </label>
+                    <input type="date" name="date" placeholder="(mm/dd/yyyy)">
+                </div>
+            </div>
+        </fieldset>
+        <div class="send">
+            <div clas="submit">
+                <input type="submit" name="submit" value="Submit" class="button">
+            </div>
+        </div>
+    </form>
+    <footer>
+    <p class="footer"> &copy; 2018 All rights reserved to the NYSL</p>
+</footer>
+</body>
+</html>

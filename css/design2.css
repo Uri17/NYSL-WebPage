@@ -1,0 +1,116 @@
+.img {
+    float: right;
+    width: 140px;
+    height: 200px;
+    margin-top: 40px;
+    margin-right: 200px;
+    padding-bottom: 0px;
+    border: 3px solid #529856;
+}
+
+#img {
+    background: url(design2_image1.jpg);
+    background-size: cover;
+    color: #1b1b1b;
+    font: bold 85px caption;
+    /* width: 1298px; */
+    height: 300px;
+    border: 4px solid #529856;
+    margin-top: 65px;
+}
+
+h1 {
+    font-size: 65px;
+    margin: -78px;
+    position: absolute;
+    margin-left: 0px;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 700px;
+
+}
+
+.actual:last-child{
+    background-color: green;
+}
+
+.actual:first-child{
+    background-color: green;
+}
+
+.actual:read-only{
+    background-color: green;
+}
+
+.subimage {
+    border: 4px solid black;
+    color: black;
+    background: white;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.navItem {
+    display: inline-block;
+    background-color: royalblue;
+    border: 2px solid black;
+    height: 45px;
+    margin: 20px
+}
+
+a {
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    color: floralwhite;
+    margin-left: 5px;
+
+}
+
+p2 {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.maintext {
+    margin-left: 210px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.maintext1 {
+    font-weight: 100;
+    margin-top: 40px;
+
+}
+
+.maintext2 {
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+
+

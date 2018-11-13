@@ -1,0 +1,490 @@
+body {
+    background-image: url('../images/ball.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+.fontsize {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.subimage {
+    border: 4px solid black;
+    color: black;
+    background: #373e4e;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: -136px;
+    margin-left: 1000px;
+    -webkit-animation: rotate 3s infinite;
+    transform: rotate(360deg);
+}
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 0px;
+}
+
+.generalNav {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    border: 2px double #346933;
+    height: 50px;
+    margin: -10px;
+    width: 150px;
+
+}
+
+.navItem {
+    background-image: url('../images/soccer_image1.jpg');
+
+}
+
+.navItemA {
+    background-image: url('../images/soccer_image2.jpg');
+
+}
+
+.navItemB {
+    background-image: url('../images/soccer_image3.jpg');
+
+}
+
+.navItemC {
+    background-image: url('../images/design1_image1.jpg');
+
+}
+
+.navItemD {
+    background-image: url('../images/design2_image1.jpg');
+
+}
+
+a {
+    height: 25%;
+    width: 50%;
+    display: column;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+.maintext {
+    margin-bottom: 70px;
+    border: 3px solid black;
+    padding-left: 50px;
+    border-color: black;
+    background: #373e4e;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.maintext1 {
+    font-weight: 100;
+    margin-top: 40px;
+    font-family: cursive;
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.maintext2 {
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    padding-left: 100px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+.schedule {
+    color: darkolivegreen;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-right: 450px;
+}
+
+.margin {
+    margin-top: 160px;
+    margin-left: -100px;
+}
+
+.margin2 {
+    margin-bottom: 120px;
+    padding-left: 100px;
+}
+
+
+
+
+
+.big {
+    margin-top: 50px;
+    padding-left: 400px;
+}
+
+.caption {
+    text-decoration: underline;
+    margin-left: 80px;
+    padding-left: 150px;
+}
+
+.marginleft {
+    margin-left: 80px;
+    padding-left: 150px;
+}
+
+.general {
+    background-color: antiquewhite;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.left {
+    padding-left: 250px;
+}
+
+.right {
+    padding-left: 250px;
+}
+
+.elements td {
+    width: 300px;
+    text-align: left;
+}
+
+.maps {
+    background-color: white;
+    align-items: center;
+}
+
+.emails {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.move {
+    margin-bottom: -10px;
+}
+
+.padding {
+    padding-left: 200px;
+}
+
+th {
+    text-align: left;
+    text-decoration: underline;
+}
+
+table td {
+    width: 150px;
+    text-align: left;
+}
+
+table {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.boldit {
+    margin-left: 75px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+.elementsA {
+    padding-left: 320px;
+}
+
+
+
+
+.margintop {
+    margin-top: 40px;
+    padding-left: 450px;
+}
+
+.marginbottom {
+    margin-bottom: -20px;
+    padding-left: 380px;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.lower-latin {
+    list-style-type: lower-latin;
+}
+
+.circle {
+    list-style-type: circle;
+
+}
+
+.bold {
+    font-weight: 600;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin: 0px;
+}
+
+ol {
+    margin: 0px;
+}
+
+.content {
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-right: 350px;
+}
+
+.rules {
+    background-color: antiquewhite;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+
+
+
+
+
+.center {
+    background-color: black;
+    font-size: 30px;
+    color: antiquewhite;
+    margin-top: 30px;
+}
+
+.regist {
+    border: 2px solid #c6c7cc;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.up {
+    margin-top: -30px;
+    padding-left: 400px;
+}
+
+.ordering {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.birth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.grade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.field {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.field2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.field3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 450px;
+}
+
+.field4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+input {
+    background-color: bisque;
+    flex-grow: 1;
+}
+
+legend {
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.mainclosets {
+    display: flex;
+    justify-content: center;
+}
+
+.mainboxes {
+    display: flex;
+    justify-content: center;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.large {
+    margin: 20px;
+}
+
+.textdecoration {
+    text-decoration: underline;
+    margin-bottom: 20px
+}
+
+.colorf {
+    color: black;
+    font-family: fantasy;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.button {
+    width: 150px;
+    height: 25px;
+}
+
+footer {
+    background-color: black;
+    height: 40px;
+    width: 100%;
+}
+
+.footer {
+    color: white;
+    padding-left: 450px;
+}
+
+.blink {
+    font-size: 65px;
+    margin: 20px;
+    position: absolute;
+    margin-left: 200px;
+    color: #d6a958;
+    border: 3px;
+    position: relative;
+    margin-left: 155px;
+    text-shadow: antiquewhite;
+    animation: blink 5s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.margin3{margin-top: 50px;}
+
+.margin4{margin-left: 425px;}
